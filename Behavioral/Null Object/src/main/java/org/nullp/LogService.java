@@ -4,9 +4,9 @@ public class LogService {
 
     private Logger logger ;
 
-    public Logger setLogger(Logger logger)
+    public void setLogger(Logger logger)
     {
-        return this.logger = logger;
+         this.logger = logger;
     }
 
     public void logging(String message)
