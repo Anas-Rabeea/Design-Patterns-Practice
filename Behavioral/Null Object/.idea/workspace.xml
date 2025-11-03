@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e528860e-98ac-4176-862e-68bc45de314e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nullp/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nullp/LogService.java" afterDir="false" />
-    </list>
+    <list default="true" id="e528860e-98ac-4176-862e-68bc45de314e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
