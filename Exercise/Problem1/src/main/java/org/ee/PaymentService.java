@@ -20,8 +20,6 @@ public class PaymentService {
 
     // Finally we here can use Factory to handle the Payment Type Creation
     // Service doesnt know the Payment Types >>> Extensible
-
-
     public PaymentService(PaymentFactory factory) {
         // choosing the behavior type from here >
         // Example :: new PaypalPaymentFactory.createPayment()
