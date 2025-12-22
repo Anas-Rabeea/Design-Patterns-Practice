@@ -1,0 +1,22 @@
+ROUND 2 — PROBLEM 1 (Multi-Pattern)
+🧩 Scenario: Payment System
+
+You are building a Payment Processing System.
+
+Requirements:
+
+Support CreditCard, PayPal, Crypto
+
+Payment behavior must be decided at runtime
+
+Payment object creation must be decoupled
+
+No if/else chains
+
+🎯 Your Task:
+
+1️⃣ Identify which patterns to use
+2️⃣ Design the classes (interfaces + implementations)
+3️⃣ Write Java code for:
+Strategy
+Factory Method
