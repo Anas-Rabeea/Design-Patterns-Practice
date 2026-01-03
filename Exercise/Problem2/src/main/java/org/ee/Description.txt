@@ -1,0 +1,7 @@
+🧩 Scenario: Notification System
+
+Requirements: >> Base notification
+- Add logging, encryption, retry
+- Behaviors must be stackable
+- No subclass explosion
+🎯 Which pattern? we will use Decoration Pattern
