@@ -9,7 +9,6 @@ public class LoggingDecorator extends NotificationDecorator{
 
     @Override
     public void send() {
-        System.out.println("Logging");
         super.send();
     }
 }

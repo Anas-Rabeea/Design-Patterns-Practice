@@ -1,0 +1,20 @@
+1. Singleton
+2. Factory Patterns
+    1. Simple Factory (One Centralized Class for creation - using switch + Abstract Method create() )
+    2. Factory Method    - GoF
+    3. Abstract Factory  - GoF
+3. Builder
+4. Prototype
+
+# No Business Logic in the Factory - Factory creates Objects ONLY
+Simple Factory   : Need to centralize object creation - many new Payment() - Long if-else
+Factory Method   : Need subclasses to decide what gets created?
+Abstract Factory : Need families of related objects?
+
+
+With Simple Factory, there is still one central class making the decision.
+With Factory Method, the decision is distributed into subclasses.
+That architectural shift is the entire reason Factory Method exists
+
+
+

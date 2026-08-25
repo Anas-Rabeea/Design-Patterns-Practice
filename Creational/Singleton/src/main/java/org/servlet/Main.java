@@ -1,8 +1,10 @@
 package org.servlet;
 
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
 
         // singleton example
         // 1. LAZY
@@ -17,8 +19,6 @@ public class Main {
         EnumLogger.INSTANCE.log("anything from only one isntance ");
 
     }
-
-
     /*
 
     | Approach               | Thread-Safe | Lazy? | Common Use                   |

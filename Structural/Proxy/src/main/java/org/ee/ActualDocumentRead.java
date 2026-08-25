@@ -1,5 +1,6 @@
 package org.ee;
 
+// the real object and the proxy both implement the same interface
 public class ActualDocumentRead implements DocumentUtils{
     private final String fileName;
 
@@ -11,7 +12,7 @@ public class ActualDocumentRead implements DocumentUtils{
 
     @Override
     public void readDocument() {
-        System.out.println("Finally Reading Document After ONE Loading via contructor");
+        System.out.println("Finally Reading Document After ONE Loading via constructor");
 
     }
 }

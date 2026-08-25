@@ -1,15 +1,19 @@
 package org.factory;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
 
         Scanner sc = new Scanner(System.in);
 
-        while(true) {
-
+        while ( true )
+        {
             System.out.println("Enter shape type (Triangle - Circle - Rectangle): ");
             String shapeType = sc.nextLine();
 
@@ -17,8 +21,10 @@ public class Main {
             // Shape shape = factory.createShape(shapeType);
             Shape shape = ShapeFactory.createShape(shapeType);
             shape.draw();
+            System.out.println("-----------------------------------------------------");
         }
 
 
-        }
- }
+
+    }
+}

@@ -1,17 +1,20 @@
 package org.servlet;
 
-public class EagerLogger {
+public class EagerLogger
+{
 
     // Eager Initialization
     // Instance created even if never used
-    private static EagerLogger instance  = new EagerLogger() ;
+    private static EagerLogger instance = new EagerLogger();
 
-    private EagerLogger() {}
+    private EagerLogger()
+    {
+    }
 
 
     public static EagerLogger getInstance()
     {
-        return instance ;
+        return instance;
     }
 
     public void log(String message)
