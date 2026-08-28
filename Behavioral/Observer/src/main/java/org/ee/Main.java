@@ -1,5 +1,12 @@
 package org.ee;
 
+import org.ee.order.EmailNotificationConsumer;
+import org.ee.order.OrderAnalyticsConsumer;
+import org.ee.order.OrderEventPublisher;
+import org.ee.order.OrderPlacementEvent;
+
+import java.math.BigDecimal;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,7 +23,15 @@ public class Main {
 
         publisher.registerUser(); // this will call all the events behind the scenes
 
+        System.out.println("******************************************");
+        OrderEventPublisher publisher2 = new OrderEventPublisher();
 
+        publisher2.subscribe(new EmailNotificationConsumer());
+        // we can comment this line also
+        publisher2.subscribe(new OrderAnalyticsConsumer());
+
+        publisher2.publish(new OrderPlacementEvent("36-qq-QQ" , "Ahmed" ,
+          new BigDecimal("33.33")));
 
     }
 }

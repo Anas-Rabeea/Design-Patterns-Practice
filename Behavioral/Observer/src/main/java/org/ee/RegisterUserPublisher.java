@@ -6,6 +6,7 @@ public class RegisterUserPublisher {
     private final List<RegisterUserObserver> events =
             new ArrayList<>();
 
+    // add notifiers to be notified when certain action happens
     public void addEvent(RegisterUserObserver user)
     {
         events.add(user);
