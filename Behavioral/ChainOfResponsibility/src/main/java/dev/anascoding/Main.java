@@ -27,10 +27,11 @@ public class Main
         OrderRequest request1 =
           new OrderRequest("39-*QQ" ,
                             "Ali" ,
-                                 new BigDecimal("33.99"),
+                                 new BigDecimal("69.67"),
                     true);
 
         authenticationHandler.handle(request);
+
         authenticationHandler.handle(request1);
     }
 }

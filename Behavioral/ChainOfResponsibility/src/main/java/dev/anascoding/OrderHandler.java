@@ -26,7 +26,6 @@ public abstract class OrderHandler
         }
     }
 
-
     // here each handler will decide to stop/continue the request or not
     protected abstract boolean process(OrderRequest request);
 }

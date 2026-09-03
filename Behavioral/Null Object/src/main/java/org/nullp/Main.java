@@ -11,8 +11,11 @@ public class Main
         logService.setLogger(new CloudLogger());
         logService.logging("Log the transaction");
 
+        logService.setLogger(new FileLogger());
+        logService.logging("File Logging ");
+
         logService.setLogger(new NullLogger());
-        logService.logging("This Message Will not be logged");
+        logService.logging("This Message Will not be logged(displayed in output)");
 
 
     }
